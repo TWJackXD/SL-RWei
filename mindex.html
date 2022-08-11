@@ -1,0 +1,216 @@
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=0.8">
+  <meta name="description" content="阿瑋的連結～">
+  <meta name="keywords" content="阿瑋R-Wei, 阿瑋">
+  <title>阿瑋の連結</title>
+</head>
+<body>
+  <center>
+  <img src="logo.png" width height="100">
+
+  <h1 style="color:#d1d1d1; font-size:15px; font-weight: lighter;">哈囉 我是阿瑋！<br/>下面都是關於我的連結哦！</h1>
+
+  <div class="width60">
+
+<hr style="margin-top:20px;" id="頻道分隔線">
+<a style="color: white;">頻道類別 Channel</a>
+<hr id="頻道分隔線">
+
+    <div class="link-box">
+      <a onclick="youtube()" style="cursor: pointer;">
+        <div class="box">
+          <img src="https://cdn-icons-png.flaticon.com/512/1384/1384028.png" width height="50" style="vertical-align: middle; margin-right: 20px">
+          <span style="margin-left: 20px">ＹＴ頻道</span>
+        </div>
+      </a>
+    </div>
+
+
+<hr style="margin-top:20px;" id="社交分隔線">
+<a style="color: white;">社交類別 Social</a>
+<hr id="社交分隔線">
+
+    <div class="link-box">
+      <a onclick="discord()" style="cursor: pointer;">
+        <div class="box">
+          <img src="https://cdn-icons-png.flaticon.com/512/5968/5968898.png" width height="50" style="vertical-align: middle; margin-right: 20px">
+          <span style="margin-left: 20px">ＤＣ群組</span>
+        </div>
+      </a>
+    </div>
+
+    <div class="link-box">
+      <a onclick="facebook()" style="cursor: pointer;">
+        <div class="box">
+          <img src="https://cdn-icons-png.flaticon.com/512/1051/1051309.png" width height="50" style="vertical-align: middle; margin-right: 20px">
+          <span style="margin-left: 20px">個人ＦＢ</span>
+        </div>
+      </a>
+    </div>
+
+    <div class="link-box">
+      <a onclick="instagram()" style="cursor: pointer;">
+        <div class="box">
+          <img src="https://cdn-icons-png.flaticon.com/512/1400/1400829.png" width height="50" style="vertical-align: middle; margin-right: 20px">
+          <span style="margin-left: 20px">個人ＩＧ</span>
+        </div>
+      </a>
+    </div>
+
+<hr style="margin-top:20px;" id="網站分隔線">
+<a style="color: white;">網站類別 Website</a>
+<hr id="網站分隔線">
+
+    <div class="link-box">
+      <a onclick="novelstar()" style="cursor: pointer;">
+        <div class="box">
+          <img src="https://cdn-icons-png.flaticon.com/512/171/171322.png" width height="50" style="vertical-align: middle; margin-right: 20px">
+          <span style="margin-left: 20px">原創星球</span>
+        </div>
+      </a>
+    </div>
+
+    <div class="link-box">
+      <a onclick="popo()" style="cursor: pointer;">
+        <div class="box">
+          <img src="https://cdn-icons-png.flaticon.com/512/171/171322.png" width height="50" style="vertical-align: middle; margin-right: 20px">
+          <span style="margin-left: 20px">ＰＯＰＯ</span>
+        </div>
+      </a>
+    </div>
+
+<hr style="margin-top:20px;" id="其他分隔線">
+<a style="color: white;">其他類別 Others</a>
+<hr id="其他分隔線">
+
+    <div class="link-box">
+      <a href="#copy" onclick="copyToClipboard()">
+        <div class="box">
+          <img src="https://cdn-icons-png.flaticon.com/512/181/181531.png" width height="50" style="vertical-align: middle; margin-right: 20px">
+          <span style="margin-left: 20px">分享本站</span>
+        </div>
+      </a>
+    </div>
+
+
+<div style="margin-bottom: 40px;"></div>
+<hr style="border: 1px dashed white;"/>
+<div style="margin-bottom: 30px;"></div>
+
+<font size="3" color="white"><a style="font-weight: lighter;">
+
+
+
+Powered by 小狼呆呆<br>
+Stable Version 1.4
+
+
+
+</a></font>
+
+<div style="margin-bottom: 30px;"></div>
+</center>
+</body>
+
+
+<style type="text/css">
+.width60{
+width: 80%;
+}
+
+body{
+  margin-top: 50;
+  font-family:微軟正黑體;
+  font-weight: bold;
+  font-size: 20;
+  background-image: url("bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box{
+  border-radius: 10px;
+  background-color: rgba(227, 227, 227, 0.5);
+  border: 3px dashed gray;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.box:hover{
+  background-color: #fff;
+  animation: beat .25s infinite alternate;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+
+@keyframes beat{
+  to { transform: scale(1.05); }
+}
+
+
+</style>
+
+<script>
+function copyToClipboard(text) {
+var inputc = document.body.appendChild(document.createElement("input"));
+inputc.value = window.location.href;
+inputc.focus();
+inputc.select();
+document.execCommand('copy');
+inputc.parentNode.removeChild(inputc);
+alert("本站連結已複製！");
+}
+
+if (screen.width >= 699) {
+document.location = "index.html";
+}
+function youtube()
+{
+window.open('https://www.youtube.com/阿瑋RWei','_blank');
+}
+
+function discord()
+{
+window.open('https://discord.gg/5kHcaPH','_blank');
+}
+
+function facebook()
+{
+window.open('https://reurl.cc/vdNL9A','_blank');
+}
+
+function instagram()
+{
+window.open('https://reurl.cc/n19mrn','_blank');
+}
+
+function website()
+{
+window.open('https://xn--0rra190d0uz.ml/','_blank');
+}
+
+function band()
+{
+window.open('https://www.kjd-band.xyz','_blank');
+}
+
+function popo()
+{
+window.open('https://www.popo.tw/books/778919','_blank');
+}
+
+function novelstar()
+{
+window.open('https://www.novelstar.com.tw/books/10655.html','_blank');
+}
+</script>
